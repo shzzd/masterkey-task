@@ -1,0 +1,28 @@
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.tile {
+  border: 2px rgb(74, 146, 234) solid;
+  border-radius: 0.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ececec;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.tile:hover {
+  background-color: rgb(227, 255, 250);
+}
+
+.output {
+  margin: 2rem 0 0 1rem;
+  font-size: 1.5rem;
+}
